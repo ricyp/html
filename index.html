@@ -43,12 +43,118 @@
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&amp;display=swap" rel="stylesheet">
+
+    <style>
+      :root {
+        --culoare-rosie: #f00;
+      }
+
+      .button {
+        font-size: 20px;
+        color: white;
+        border-radius: 6px;
+        text-decoration: none;
+        display: block;
+        width: 300px;
+        height: 40px;
+        padding: 10px;
+        box-sizing: border-box;
+        background: blue;
+        color: var(--culoare-rosie);
+      }
+
+      .button--yellow {
+        background: yellow;
+        color: black;
+      }
+
+      .button__icon {}
+
+      .button::after {
+        content: '';
+        width: 10px;
+        height: 10px;
+        background: pink;
+        display: block;
+      }
+
+      .demo:has(img) {
+        max-width: 1200px;
+        margin: 0 auto;
+      }
+
+      .demo img {
+        display: block;
+        width: 50%;
+      }
+
+      .demo img:first-child {
+        transform: translateX(25px);
+      }
+
+      .demo img:last-child {
+        transform: translateX(-25px);
+        margin-left: auto;
+        margin-top: -50px;
+      }
+
+/*
+      .demo {
+        display: flex;
+        margin-bottom: 100px;
+        justify-content: center;
+      }
+
+      .demo img:last-child {
+        align-self: flex-end;
+        transform: translate(-100px, 100px);
+      }
+*/
+      /*
+      .demo {
+        position: relative;
+        height: 500px;
+        margin-bottom: 500px;
+      }
+      .demo img:first-child {
+        right: 50%;
+        position: absolute;
+        top: 0;
+        height: 100%;
+      }
+      .demo img:last-child {
+        position: absolute;
+        top: 100%;
+        left: 50%;
+        height: 100%;
+        margin: -50px 0 0 -50px;
+      }
+      */
+
+      /*
+      .demo img {
+        vertical-align: top;
+      }
+      .demo img:first-child {
+        position: relative;
+      }
+      .demo img:last-child {
+        margin-top: 350px;
+        margin-left: -150px;
+      }
+      */
+    </style>
   </head>
   <body>
     <header>
-      <a href="/">Logo Site</a>
+      <a target="_blank"></a>
+
+      <a href="/" class="color-red">Logo Site<span class="link logo">LINK</span></a>
 
       <a href="#main-content">Skip to Main Content</a>
+
+      <a href="" class="button">Butonul Meu</a>
+      <a href="" class="button button--yellow">Butonul Meu <span class="button__icon"></span></a>
 
       <nav>
         <ul>
@@ -77,7 +183,7 @@
     <main id="main-content">
       <nav>...</nav>
 
-      <article>
+      <article class="editorial">
         <header>
           <figure>
             <img src="" alt=""/>
@@ -102,14 +208,14 @@
             <span>text un pic mai mic</span>
           </p>
 
-          <hr />
+          <hr/>
 
           <blockquote>
             <p>My dear bla bla</p>
             <cite>Ludwig Van Beethoven</cite>
           </blockquote>
 
-          <hr />
+          <hr/>
 
           <figure>
             <blockquote cite="https://www.huxley.net/bnw/four.html">
@@ -128,6 +234,11 @@
       </video>
 
       <aside></aside>
+
+      <div class="demo">
+        <img src="https://place-hold.it/500x500/eee"/>
+        <img src="https://place-hold.it/500x200/666"/>
+      </div>
     </main>
 
     <footer>
