@@ -1,0 +1,154 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <style>
+      /* Universal Selector - selects every element */
+      * {}
+
+      /* Type (Tag) Selector - selects every tag element */
+      div {}
+      p {}
+      div h1 {}
+
+      /* Attribute selector - selects element based on attribute
+      [data-ceva]
+      [data-ceve="altceva"]
+      [target="_blank"]
+      [class*="name"] <- IF the attribute class CONTAINS name
+      <div class="XnameX"> <- still matches [class*="name"]
+       */
+
+      /* List, selects multiple elements by class/tag/attribute etc.
+       * Comma-delimited list of selectors
+      */
+       .name, h1 {}
+
+
+      /* Class selector - selects every element with `className` class */
+      .className {}
+
+      /* Multiple Class selector - selects every element with `class` AND `.name` class.
+        E.g. <div class="class name">
+      */
+      .class.name {}
+
+      /* Class nested Selector - selects `name` children of `class` element
+        E.g. 
+        <div class="class">
+          <div class="name"></div>
+        </div>
+      */
+      .class .name {}
+
+      /* Direct Child Selector - selects element ONLY IF it's a direct child (descendant)
+        E.g. 
+        <div class="class"><p></p></div>
+      */
+      .class > p {}
+
+      /* Sibling Selector 1) - selects ALL element siblings
+        E.g. 
+        <div class="class name"></div>
+        <div class="name"></div>
+        <div class="name"></div>
+      */
+      .class ~ .name {
+
+      }
+
+      /* Sibling Selector 2) - selects THE FIRST element sibling
+        E.g. 
+        <div class="class"></div>
+        <div class="name"></div> <- THIS ONE
+        <div class="name"></div>
+      */
+      .class + .name {}
+
+      /* First Child - selects only THE FIRST child element, only if it's the first.
+        E.g. 
+        <div>
+          <div class="name"></div> <- THIS ONE
+          <div class="name"></div> <- NOT THIS ONE
+        </div>
+      */
+      .name:first-child {}
+
+      /* Last Child - selects only THE LAST child element, only if it's the last.
+        E.g. 
+        <div>
+          <div class="name"></div> <- NOT THIS ONE
+          <div class="name"></div> <- NOT THIS ONE
+          <div class="name"></div> <- THIS ONE
+        </div>
+      */
+      .name:last-child {}
+
+      /* Nth Child - selects the 'nth-child element
+        E.g. 
+        <div>
+          <div class="name"></div> <- NOT THIS ONE
+          <div class="name"></div> <- THIS ONE
+          <div class="name"></div> <- NOT THIS ONE
+        </div>
+      */
+      .name:nth-child(2) {}
+
+      /* Nth Child - selects the 'nth-child element
+        E.g. 
+        <div>
+          <div class="name">NOT THIS ONE</div>
+          <div class="name">THIS ONE</div>
+          <div class="name">NOT THIS ONE</div>
+          <div class="name">THIS ONE</div>
+          <div class="name">NOT THIS ONE</div>
+        </div>
+      */
+      .name:nth-child(2n) {}
+      /* + 4 = start at the 4th element, then every 2nd one */
+      .name:nth-child(2n + 4) {}
+
+      /* Even / Odd- selects every even element */
+      .name:nth-child(even) {}
+      .name:nth-child(odd) {}
+
+
+      /*************************************************************************/
+      /*************************************************************************/
+      /*************************************************************************/
+      /*
+      * BEM naming (Block, Element, Modifier)
+      */
+      .block {}
+      .block__element {}
+      .block--modifier {}
+      .block__element--modifier {}
+      .is-modifier {}
+      .has-modifier {}
+
+      /* PSEUDO CLASSES */
+      a:hover, <- Mouse hover
+      a:focus, <- Keyboard focus. OR mouse focus after a full click
+      a:active <- Mouse down on element (halfway click)
+      {
+
+      }
+
+      /* PSEUDO ELEMENTS */
+      div::after {
+        content: '';
+      }
+      div::before {
+        content: '';
+      }
+    </style>
+  </head>
+  <body>
+    <div>
+      <div class="name">NOT THIS ONE</div>
+      <div class="name">THIS ONE</div>
+      <div class="name">NOT THIS ONE</div>
+      <div class="name">THIS ONE</div>
+      <div class="name">NOT THIS ONE</div>
+    </div>
+  </body>
+</html>

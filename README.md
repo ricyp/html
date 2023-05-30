@@ -3,6 +3,9 @@
 [W3 validator](https://validator.w3.org/)
 [Markdown Cheat Sheet](https://www.markdownguide.org/cheat-sheet/)
 
+# CSS selectors reference
+[MDN](https://developer.mozilla.org/en-US/docs/Web/CSS/CSS_Selectors)
+
 # GIT Commands
 
 - `git pull`
