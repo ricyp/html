@@ -1,0 +1,84 @@
+html {
+    background: #f8f9ff;
+}
+body {
+    margin: 0;
+}
+
+img {
+    width: 100%;
+}
+
+.hero__wrapper {
+    max-width: 1280px;
+    margin: 0 auto;
+}
+
+.hero__editorial {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    padding: 120px 55px;
+    gap: 72px
+}
+
+.editorial__left {
+    width: 58.5%;
+}
+
+.editorial__right {
+    width: 41.5%;
+}
+
+h1 {
+    font-size: 68px;
+    font-weight: 700;
+    letter-spacing: -0.025em;
+    color: #2d2d2d;
+    font-family: 'Poppins', sans-serif;
+    line-height: 1.3;
+    margin: 0 0 20px 0;
+}
+
+.hero__p {
+    font-size: 21px;
+    font-weight: 400;
+    color:#2d2d2d;
+    font-family: Mulish, sans-serif;
+    line-height: 1.5;
+    margin: 0 0 40px 0;
+}
+
+.hero__p a {
+    text-decoration: none;
+    color: #3366FF;
+}
+
+.button {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 8px;
+    font-size: 16px;
+    font-weight: 600;
+    text-decoration: none;
+    font-family: Arial, Helvetica, sans-serif;
+    padding: 18px 50px;
+    border-radius:20px;
+    border: 1px solid #009379;
+}
+
+.row {
+    display: flex;
+    gap: 18px;
+}
+.is-getstart {
+    background: #009379;
+    color: #fff;
+}
+
+.is-howworks {
+    background: #fff;
+    color: #009379;
+}
