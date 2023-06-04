@@ -9,8 +9,9 @@ img {
     width: 100%;
 }
 
-.hero__wrapper {
+.wrapper {
     max-width: 1280px;
+    padding: 0px 55px;
     margin: 0 auto;
 }
 
@@ -19,7 +20,7 @@ img {
     flex-direction: row;
     justify-content: space-between;
     align-items: center;
-    padding: 120px 55px;
+    padding: 120px 0;
     gap: 72px
 }
 
@@ -81,4 +82,19 @@ h1 {
 .is-howworks {
     background: #fff;
     color: #009379;
+}
+
+.clients__scroll {
+    display:flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 60px 0px;
+    gap: 64px;
+    border-width: 1px 0px;
+    border-style: solid;
+    border-color: #d8d8d8;
+}
+
+.clients__scroll img {
+    width: 90px;
 }
