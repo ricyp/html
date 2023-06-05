@@ -95,3 +95,42 @@
     border-radius: 20px 20px 0px 0px;
     
 }
+
+.card--testimonial {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    flex: 0 1 33%;
+    
+}
+
+.card--testimonial * {
+    flex: 0 1 auto;
+}
+
+.card--testimonial .stars {
+    margin-top: auto;
+    width: auto;
+}
+
+.card--testimonial p{
+    margin-bottom: 30px;
+
+}
+
+.card--testimonial .card__img--small {
+    width: 56px;
+}
+
+.price-plan .card {
+    text-align: left;
+}
+
+.bg-green {
+    background: #009379;
+    color: #fff;
+}
+
+.card.card--third.bg-green * {
+    color:#fff;
+}

@@ -22,3 +22,15 @@
     background: #fff;
     color: #009379;
 }
+
+.card .button {
+    background: #e5f4f2;
+    color: #009379;
+    border: 0 solid #e5f4f2;
+}
+
+.card.card--third.bg-green .button {
+    color: #009379;
+    background: #fff;
+
+}

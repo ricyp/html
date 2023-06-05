@@ -8,3 +8,52 @@
     line-height: 1.3;
     margin: 0 0 20px 0;
 }
+
+.h2 {
+    font-size: 50px;
+    font-weight: 700;
+    letter-spacing: -0.02em;
+    color: #2d2d2d;
+    font-family: 'Poppins', sans-serif;
+    line-height: 1.3;
+    margin: 0 0 20px 0;
+}
+
+.price-plan .card h2 {
+    font-size: 50px;
+    font-weight: 700;
+    letter-spacing: -0.02em;
+    color: #2d2d2d;
+    font-family: 'Poppins', sans-serif;
+    line-height: 1.3;
+    margin: 0 0 0 0;
+}
+
+h5 {
+    font-family: Poppins, sans-serif;
+    font-size: 21px;
+    font-weight: 600;
+    line-height: 130%;
+    text-align: center;
+    color: #111827;
+    margin: 16px 0 0 0;
+}
+
+.price-plan .card h5{
+    text-align: left;
+    font-weight: 400;
+    font-size: 21px;
+    font-family: Mulish, sans-serif;
+    margin: 0;
+
+}
+
+h6 {
+    font-family: Mulish, sans-serif;
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 160%;
+    text-align: center;
+    color: #374151;
+    margin: 6px 0 0 0 ;
+}

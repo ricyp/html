@@ -4,15 +4,14 @@
     flex-direction: row;
     justify-content: space-between;
     align-items: center;
-    padding: 120px 0;
     gap: 72px
 }
 
-.editorial__left {
+.section--hero .hero__editorial .editorial__left{
     width: 58.5%;
 }
 
-.editorial__right {
+.section--hero .hero__editorial .editorial__right {
     width: 41.5%;
 }
 .hero__p {

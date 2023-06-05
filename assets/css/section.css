@@ -1,7 +1,11 @@
 .section {
-    margin: 120px 0 120px 0;
+    padding: 120px 0px;
 }
 
+.section--hero {
+    display: flex;
+    gap: 101px;
+}
 .section__header {
     margin-bottom: 60px;
 }
@@ -20,4 +24,12 @@
     text-align: center;
     color: #2d2d2d;
     margin: 0;
+}
+
+
+.section .hero__editorial .editorial__left{
+    width: 50%;
+}
+.section .hero__editorial .editorial__right{
+    width: 50%;
 }
