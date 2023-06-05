@@ -1,0 +1,28 @@
+/*section*/
+.hero__editorial {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    padding: 120px 0;
+    gap: 72px
+}
+
+.editorial__left {
+    width: 58.5%;
+}
+
+.editorial__right {
+    width: 41.5%;
+}
+.hero__p {
+    font-size: 21px;
+    color:#2d2d2d;
+    line-height: 1.5;
+    margin: 0 0 40px 0;
+}
+
+.hero__p a {
+    text-decoration: none;
+    color: #3366FF;
+}

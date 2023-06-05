@@ -1,0 +1,97 @@
+/*cards*/
+.features__cards {
+    display: flex;
+    gap: 30px;
+    justify-content: space-between;
+    padding: 0;
+}
+
+.card {
+    background: #fff;
+    border: 1px solid #e5f4f2;
+    box-shadow: 34.8541px 29.626px 43.34px rgba(51, 102, 255, 0.05);
+    border-radius: 20px;
+    text-align:center;
+    padding: 40px 30px;
+}
+
+.card--third {
+    flex: 1 1 33%;
+}
+
+.card--fourth {
+    flex: 1 1 25%;
+}
+
+.card img {
+    display: block;
+    width: 82px;
+    margin: 0 auto;
+    
+}
+
+.features--learn{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 0px;
+    gap: 8px;
+    height: 30px;
+    text-decoration: none;
+    margin: 0 auto;
+    margin-top: 30px;
+
+}
+
+.features--learn {
+    font-family: "Poppins";
+    font-weight: 600;
+    font-size: 16px;
+    line-height: 24px;
+    color: #009379;
+}
+
+.features--learn img {
+    width: 20px;
+}
+
+.card h4 {
+    font-family:"Poppins";
+    font-weight: 600;
+    font-size: 28px;
+    line-height: 130%;
+    color: #2d2d2d;
+    letter-spacing: -0.01em;
+    margin-top: 30px;
+    margin-bottom: 24px;
+}
+
+.card p {
+    line-height: 150%;
+    color: #2d2d2d;
+    margin-bottom: 0;
+}
+
+.card .arrow--right {
+    margin: 0;
+    padding: 0;
+}
+
+.text-card {
+    display: flex;
+    padding: 0;
+    gap: 30px;
+    
+}
+
+.text-card .card h4 {
+    margin-top: 0;
+}
+
+.text-card .card {
+    padding: 48px 16px;
+    border-bottom: 4px solid #F2BFAF;
+    box-shadow: 34.8541px 29.626px 48.34px rgba(51, 102, 255, 0.05);
+    border-radius: 20px 20px 0px 0px;
+    
+}

@@ -1,0 +1,30 @@
+/*general*/
+* {
+    box-sizing: border-box;
+}
+
+html {
+    background: #f8f9ff;
+}
+body {
+    margin: 0;
+    font-family: Mulish, sans-serif;
+    font-weight: 400;
+    font-size: 16px;
+}
+
+img {
+    width: 100%;
+}
+
+
+.wrapper {
+    max-width: 1280px;
+    padding: 0px 55px;
+    margin: 0 auto;
+}
+
+.row {
+    display: flex;
+    gap: 18px;
+}

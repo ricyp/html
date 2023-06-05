@@ -1,0 +1,23 @@
+.section {
+    margin: 120px 0 120px 0;
+}
+
+.section__header {
+    margin-bottom: 60px;
+}
+.section__header h2 {
+    font-family: "Poppins";
+    font-weight: 700;
+    font-size: 38px;
+    line-height: 130%;
+    text-align: center;
+    letter-spacing: -0.02em;
+    margin-bottom: 20px;
+}
+
+.section__header p {
+    line-height: 150%;
+    text-align: center;
+    color: #2d2d2d;
+    margin: 0;
+}
