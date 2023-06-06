@@ -16,7 +16,7 @@
     line-height: 130%;
     text-align: center;
     letter-spacing: -0.02em;
-    margin-bottom: 20px;
+    margin-top: 0;
 }
 
 .section__header p {
@@ -26,10 +26,9 @@
     margin: 0;
 }
 
-
 .section .hero__editorial .editorial__left{
-    width: 50%;
+    width: 52%;
 }
 .section .hero__editorial .editorial__right{
-    width: 50%;
+    width: 48%;
 }

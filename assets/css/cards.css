@@ -3,7 +3,7 @@
     display: flex;
     gap: 30px;
     justify-content: space-between;
-    padding: 0;
+    padding: 0 55px 0 55px;
 }
 
 .card {
@@ -66,12 +66,19 @@
     margin-bottom: 24px;
 }
 
+.section--numbers h4 {
+    margin-bottom: 0;
+}
+
 .card p {
     line-height: 150%;
     color: #2d2d2d;
     margin-bottom: 0;
 }
 
+.text-card .card p{
+    margin: 0;
+}
 .card .arrow--right {
     margin: 0;
     padding: 0;
@@ -81,7 +88,7 @@
     display: flex;
     padding: 0;
     gap: 30px;
-    
+    margin: 0 55px 0 55px;
 }
 
 .text-card .card h4 {

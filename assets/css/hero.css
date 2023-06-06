@@ -4,7 +4,8 @@
     flex-direction: row;
     justify-content: space-between;
     align-items: center;
-    gap: 72px
+    gap: 72px;
+    margin: 0 55px 0 55px;
 }
 
 .section--hero .hero__editorial .editorial__left{
