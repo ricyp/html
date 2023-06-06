@@ -1,0 +1,59 @@
+.logocloud {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  row-gap: 10px;
+}
+
+.logocloud-ct {
+  border: solid var(--color-border);
+  border-width: 1px 0;
+  padding: 30px var(--wrapper-padding);
+  margin: 0 calc(var(--wrapper-padding) * -1);
+}
+
+.logocloud figure {
+  flex-basis: 33.3333%;
+  padding-top: 16px;
+  padding-bottom: 16px;
+}
+
+.logocloud figure:nth-child(3n + 3) img {
+  margin-left: auto;
+}
+
+.logocloud figure:nth-child(3n + 2) img {
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.logocloud img {
+  width: 70px;
+}
+
+@media (min-width: 768px) {
+  .logocloud-ct {
+    margin: 0 32px;
+    padding: 40px 0;
+  }
+
+  .logocloud {
+    align-items: center;
+  }
+
+  .logocloud figure {
+    flex-basis: auto;
+    padding: 0;
+  }
+}
+
+@media (min-width: 1200px) {
+  .logocloud-ct {
+    margin: 0;
+    padding: 60px 0;
+  }
+
+  .logocloud img {
+    width: 90px;
+  }
+}

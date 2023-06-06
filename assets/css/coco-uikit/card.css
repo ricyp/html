@@ -1,0 +1,49 @@
+.cards {
+  display: flex;
+  flex-direction: column;
+  gap: 30px;
+}
+
+.card {
+  background-color: var(--color-white);
+  border-radius: 20px;
+  box-shadow: 34.8541px 29.626px 48.34px rgba(51, 102, 255, 0.05);
+  border: 1px solid #E5F4F2;
+  text-align: center;
+  padding: 40px 30px;
+}
+
+.card__icon {
+  margin: 0 auto 30px;
+}
+
+.card h3 {
+  font-family: 'Poppins', sans-serif;
+  font-size: 28px;
+  font-weight: 600;
+  line-height: 130%;
+  text-align: center;
+  letter-spacing: -0.01em;
+  margin-bottom: 24px;
+}
+
+.card p:not(:last-child) {
+  margin-bottom: 30px;
+}
+
+@media (min-width: 768px) {
+  .cards {
+    gap: 20px;
+  }
+}
+
+@media (min-width: 1200px) {
+  .cards {
+    flex-direction: row;
+    gap: 30px;
+  }
+
+  .card {
+    flex-basis: 33.3333333%;
+  }
+}

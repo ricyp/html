@@ -1,0 +1,39 @@
+* {
+  box-sizing: border-box;
+}
+
+html,
+body {
+  font-family: Mulish, sans-serif;
+  font-size: 16px;
+  line-height: 1.5;
+  background-color: var(--color-background);
+  margin: 0;
+}
+
+ul, ol {
+  list-style: none;
+}
+
+:where(h1, h2, h3, h4, h5, h6, ul, li, figure, p) {
+  margin: 0;
+  padding: 0;
+}
+
+img {
+  display: block;
+  max-width: 100%;
+  height: auto;
+}
+
+a {
+  text-decoration: none;
+}
+
+a:not([class]) {
+  color: var(--color-blue);
+}
+
+strong {
+  font-weight: 700;
+}

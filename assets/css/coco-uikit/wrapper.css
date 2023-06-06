@@ -1,0 +1,35 @@
+.wrapper {
+  max-width: 1280px;
+  padding: 60px var(--wrapper-padding);
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.wrapper--short {
+  padding-top: 0;
+  padding-bottom: 0;
+}
+
+/* Tablet */
+@media (min-width: 768px) {
+  .wrapper {
+    padding: 100px 50px;
+  }
+
+  .wrapper--short {
+    padding-top: 40px;
+    padding-bottom: 40px;
+  }
+}
+
+/* Desktop */
+@media (min-width: 1200px) {
+  .wrapper {
+    padding: 120px 55px;
+  }
+
+  .wrapper--short {
+    padding-top: 60px;
+    padding-bottom: 60px;
+  }
+}

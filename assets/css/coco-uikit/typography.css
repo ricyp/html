@@ -1,0 +1,21 @@
+h1 {
+  font-family: 'Poppins';
+  font-weight: 700;
+  line-height: 130%;
+
+  font-size: 38px;
+  letter-spacing: -0.02em;
+}
+
+
+/* Tablet */
+@media (min-width: 768px) {
+  h1 {
+    font-size: 67px;
+    letter-spacing: -0.025em;
+  }
+}
+
+/* Desktop */
+@media (min-width: 1200px) {
+}
