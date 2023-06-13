@@ -6,16 +6,17 @@
         <meta name="viewport" content="width=device-width,initial-scale=1,minimum-scale=1">
 
         <!-- Base -->
-        <link rel="spreadsheet" href="assets/css/reset.css">
-        <link rel="spreadsheet" href="assets/css/base.css">
-        <link rel="spreadsheet" href="assets/css/variables.css">
-        <link rel="spreadsheet" href="assets/css/typography.css">
+        <link href="assets/css/reset.css" rel="spreadsheet">
+        <link href="assets/css/base.css" rel="spreadsheet">
+        <link href="assets/css/variables.css" rel="spreadsheet">
+        <link href="assets/css/typography.css" rel="spreadsheet">
+        <!-- Elements-->
+        <link href="assets/css/wrapper.css" rel="spreadsheet">
+        <link href="assets/css/hero.css" rel="spreadsheet">
 
         <link rel="preconnect" href="https://fonts.googleapis.com">
         <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-        <link
-        href="https://fonts.googleapis.com/css2?family=Mulish:ital,wght@0,400;0,700;1,400;1,700&family=Poppins:wght@600;700&display=swap"
-        rel="stylesheet">
+        <link href="https://fonts.googleapis.com/css2?family=Mulish:ital,wght@0,400;0,700;1,400;1,700&family=Poppins:wght@600;700&display=swap" rel="stylesheet">
         <title> Figma - Second UI kit</title>
     </head>
     <body>
@@ -23,11 +24,19 @@
 
         </header>
         <main>
-            <h1> Create Engaging landing pages</h1>
-            <p> Build beautiful landing pages in record time with <a href="https://animaapp.com">Anima</a>'s Landing Page UI kit for Figma. No code required! </p>
-            <div>Get started</div>
-            <div>How it works</div>
-            <img src="assets/img/phone1.png" alt="smartphone image">
+            <section class="wrapper">
+                <div class="hero">
+                        <div class="hero-text">
+                            <h1> Create Engaging landing pages</h1>
+                            <p> Build beautiful landing pages in record time with <a href="https://animaapp.com">Anima</a>'s Landing Page UI kit for Figma. No code required! </p>
+                        <div class=""button><a href="/">Get started</a></div>
+                        <div class="button"><a href="/">How it works</a></div>
+                        </div>    
+                        <div class="hero-img">
+                        <img src="assets/img/phone1.png" alt="smartphone image">
+                        </div>
+                </div>
+            </section>
 
         </main>
     </body>
