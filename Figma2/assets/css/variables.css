@@ -9,5 +9,7 @@
 --color-customers: #374151;
 --color-background-yellow: #f8d57e;
 --color-background-white: #F8F9FF;
+--color-dropshadow: rgba(51, 102, 255, 0.05);
+--color-card-border-default: #e5f4f2;
 }
 
