@@ -1,0 +1,15 @@
+:root {
+--color-default: #2D2D2D;
+--color-yellow: #F8D57E;
+--color-black: #000;
+--color-white: #fff;
+--color-green: #009379;
+--color-blue: #3366ff;
+--color-card-title: #111827;
+--color-customers: #374151;
+--color-background-yellow: #f8d57e;
+--color-background-white: #F8F9FF;
+--color-dropshadow: rgba(51, 102, 255, 0.05);
+--color-card-border-default: #e5f4f2;
+}
+

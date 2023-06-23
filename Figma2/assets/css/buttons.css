@@ -1,0 +1,62 @@
+.hero__buttons {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 18px;
+    
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 16px;
+    line-height: 1.5;
+    text-align: center;
+    font-feature-settings: 'liga' off;
+}
+
+.button {
+
+    background-color: var(--color-white);
+    border-radius:20px;
+    border: 1px solid var(--color-green);
+    padding: 17px 49px;
+    width: 221px;
+
+}
+
+.button--green {
+    display: inline-block;
+    vertical-align: middle;
+    background-color: var(--color-green);
+    gap: 8px;
+    
+}
+
+.is-getstarted {
+    display: inline-flex;
+    gap: 8px;
+    color: var(--color-white);
+    background-color: var(--color-green);
+}
+
+.is-howworks {
+    color: var(--color-green)
+}
+
+@media (min-width: 768px) {
+    .hero__buttons{
+        flex-direction: row;
+
+    }
+    .button {
+    width: auto;
+    }
+
+}
+
+@media (min-width: 1280px) {
+    .hero__buttons {
+        justify-content: left;
+        
+    }
+}
