@@ -1,0 +1,275 @@
+.columns {
+  --gap: 32px;
+
+  display: flex;
+  flex-wrap: wrap;
+  margin-left: calc(var(--gap) * -1);
+}
+
+.columns > * {
+  margin-left: var(--gap);
+}
+
+:where(.columns.columns-1 > *),
+.columns-1:not(.columns) {
+  flex-basis: calc(8.3333333333% - var(--gap));
+}
+
+:where(.columns.columns-2 > *),
+.columns-2:not(.columns) {
+  flex-basis: calc(16.6666666667% - var(--gap));
+}
+
+:where(.columns.columns-3 > *),
+.columns-3:not(.columns) {
+  flex-basis: calc(25% - var(--gap));
+}
+
+:where(.columns.columns-4 > *),
+.columns-4:not(.columns) {
+  flex-basis: calc(33.3333333333% - var(--gap));
+}
+
+:where(.columns.columns-5 > *),
+.columns-5:not(.columns) {
+  flex-basis: calc(41.6666666667% - var(--gap));
+}
+
+:where(.columns.columns-6 > *),
+.columns-6:not(.columns) {
+  flex-basis: calc(50% - var(--gap));
+}
+
+:where(.columns.columns-7 > *),
+.columns-7:not(.columns) {
+  flex-basis: calc(58.3333333333% - var(--gap));
+}
+
+:where(.columns.columns-8 > *),
+.columns-8:not(.columns) {
+  flex-basis: calc(66.6666666667% - var(--gap));
+}
+
+:where(.columns.columns-9 > *),
+.columns-9:not(.columns) {
+  flex-basis: calc(75% - var(--gap));
+}
+
+:where(.columns.columns-10 > *),
+.columns-10:not(.columns) {
+  flex-basis: calc(83.3333333333% - var(--gap));
+}
+
+:where(.columns.columns-11 > *),
+.columns-11:not(.columns) {
+  flex-basis: calc(91.6666666667% - var(--gap));
+}
+
+:where(.columns.columns-12 > *),
+.columns-12:not(.columns) {
+  flex-basis: calc(100% - var(--gap));
+}
+
+:where(.columns.columns-auto > *),
+.columns-auto:not(.columns) {
+  flex-basis: auto;
+}
+
+@media (min-width: 768px) {
+  :where(.columns.md\:columns-1 > *),
+  .md\:columns-1:not(.columns) {
+    flex-basis: calc(8.3333333333% - var(--gap));
+  }
+
+  :where(.columns.md\:columns-2 > *),
+  .md\:columns-2:not(.columns) {
+    flex-basis: calc(16.6666666667% - var(--gap));
+  }
+
+  :where(.columns.md\:columns-3 > *),
+  .md\:columns-3:not(.columns) {
+    flex-basis: calc(25% - var(--gap));
+  }
+
+  :where(.columns.md\:columns-4 > *),
+  .md\:columns-4:not(.columns) {
+    flex-basis: calc(33.3333333333% - var(--gap));
+  }
+
+  :where(.columns.md\:columns-5 > *),
+  .md\:columns-5:not(.columns) {
+    flex-basis: calc(41.6666666667% - var(--gap));
+  }
+
+  :where(.columns.md\:columns-6 > *),
+  .md\:columns-6:not(.columns) {
+    flex-basis: calc(50% - var(--gap));
+  }
+
+  :where(.columns.md\:columns-7 > *),
+  .md\:columns-7:not(.columns) {
+    flex-basis: calc(58.3333333333% - var(--gap));
+  }
+
+  :where(.columns.md\:columns-8 > *),
+  .md\:columns-8:not(.columns) {
+    flex-basis: calc(66.6666666667% - var(--gap));
+  }
+
+  :where(.columns.md\:columns-9 > *),
+  .md\:columns-9:not(.columns) {
+    flex-basis: calc(75% - var(--gap));
+  }
+
+  :where(.columns.md\:columns-10 > *),
+  .md\:columns-10:not(.columns) {
+    flex-basis: calc(83.3333333333% - var(--gap));
+  }
+
+  :where(.columns.md\:columns-11 > *),
+  .md\:columns-11:not(.columns) {
+    flex-basis: calc(91.6666666667% - var(--gap));
+  }
+
+  :where(.columns.md\:columns-12 > *),
+  .md\:columns-12:not(.columns) {
+    flex-basis: calc(100% - var(--gap));
+  }
+  :where(.columns.md\:columns-auto > *),
+  .md\:columns-auto:not(.columns) {
+    flex-basis: auto;
+  }
+}
+
+@media (min-width: 1280px) {
+  :where(.columns.lg\:columns-1 > *),
+  .lg\:columns-1:not(.columns) {
+    flex-basis: calc(8.3333333333% - var(--gap));
+  }
+
+  :where(.columns.lg\:columns-2 > *),
+  .lg\:columns-2:not(.columns) {
+    flex-basis: calc(16.6666666667% - var(--gap));
+  }
+
+  :where(.columns.lg\:columns-3 > *),
+  .lg\:columns-3:not(.columns) {
+    flex-basis: calc(25% - var(--gap));
+  }
+
+  :where(.columns.lg\:columns-4 > *),
+  .lg\:columns-4:not(.columns) {
+    flex-basis: calc(33.3333333333% - var(--gap));
+  }
+
+  :where(.columns.lg\:columns-5 > *),
+  .lg\:columns-5:not(.columns) {
+    flex-basis: calc(41.6666666667% - var(--gap));
+  }
+
+  :where(.columns.lg\:columns-6 > *),
+  .lg\:columns-6:not(.columns) {
+    flex-basis: calc(50% - var(--gap));
+  }
+
+  :where(.columns.lg\:columns-7 > *),
+  .lg\:columns-7:not(.columns) {
+    flex-basis: calc(58.3333333333% - var(--gap));
+  }
+
+  :where(.columns.lg\:columns-8 > *),
+  .lg\:columns-8:not(.columns) {
+    flex-basis: calc(66.6666666667% - var(--gap));
+  }
+
+  :where(.columns.lg\:columns-9 > *),
+  .lg\:columns-9:not(.columns) {
+    flex-basis: calc(75% - var(--gap));
+  }
+
+  :where(.columns.lg\:columns-10 > *),
+  .lg\:columns-10:not(.columns) {
+    flex-basis: calc(83.3333333333% - var(--gap));
+  }
+
+  :where(.columns.lg\:columns-11 > *),
+  .lg\:columns-11:not(.columns) {
+    flex-basis: calc(91.6666666667% - var(--gap));
+  }
+
+  :where(.columns.lg\:columns-12 > *),
+  .lg\:columns-12:not(.columns) {
+    flex-basis: calc(100% - var(--gap));
+  }
+  :where(.columns.lg\:columns-auto > *),
+  .lg\:columns-auto:not(.columns) {
+    flex-basis: auto;
+  }
+}
+
+@media (min-width: 1440px) {
+  :where(.columns.xl\:columns-1 > *),
+  .xl\:columns-1:not(.columns) {
+    flex-basis: calc(8.3333333333% - var(--gap));
+  }
+
+  :where(.columns.xl\:columns-2 > *),
+  .xl\:columns-2:not(.columns) {
+    flex-basis: calc(16.6666666667% - var(--gap));
+  }
+
+  :where(.columns.xl\:columns-3 > *),
+  .xl\:columns-3:not(.columns) {
+    flex-basis: calc(25% - var(--gap));
+  }
+
+  :where(.columns.xl\:columns-4 > *),
+  .xl\:columns-4:not(.columns) {
+    flex-basis: calc(33.3333333333% - var(--gap));
+  }
+
+  :where(.columns.xl\:columns-5 > *),
+  .xl\:columns-5:not(.columns) {
+    flex-basis: calc(41.6666666667% - var(--gap));
+  }
+
+  :where(.columns.xl\:columns-6 > *),
+  .xl\:columns-6:not(.columns) {
+    flex-basis: calc(50% - var(--gap));
+  }
+
+  :where(.columns.xl\:columns-7 > *),
+  .xl\:columns-7:not(.columns) {
+    flex-basis: calc(58.3333333333% - var(--gap));
+  }
+
+  :where(.columns.xl\:columns-8 > *),
+  .xl\:columns-8:not(.columns) {
+    flex-basis: calc(66.6666666667% - var(--gap));
+  }
+
+  :where(.columns.xl\:columns-9 > *),
+  .xl\:columns-9:not(.columns) {
+    flex-basis: calc(75% - var(--gap));
+  }
+
+  :where(.columns.xl\:columns-10 > *),
+  .xl\:columns-10:not(.columns) {
+    flex-basis: calc(83.3333333333% - var(--gap));
+  }
+
+  :where(.columns.xl\:columns-11 > *),
+  .xl\:columns-11:not(.columns) {
+    flex-basis: calc(91.6666666667% - var(--gap));
+  }
+
+  :where(.columns.xl\:columns-12 > *),
+  .xl\:columns-12:not(.columns) {
+    flex-basis: calc(100% - var(--gap));
+  }
+
+  :where(.columns.xl\:columns-auto > *),
+  .xl\:columns-auto:not(.columns) {
+    flex-basis: auto;
+  }
+}
