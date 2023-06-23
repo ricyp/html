@@ -1,8 +1,6 @@
 .cards {
     display: flex;
-    flex-direction: column;
-    align-items: center;
-    justify-content: center;
+    flex-wrap: wrap;
     padding: 0px;
     gap: 20px;
     filter: drop-shadow(34.8541px 29.626px 48.34px var(--color-dropshadow));
@@ -11,12 +9,21 @@
 
 .card {
     display: flex;
-    flex-direction: row;
     align-items: center;
     padding: 20px;
     gap: 20px;
     background-color: var(--color-white);
     border: 1px solid var(--color-card-border-default);
     border-radius: 20px;
-    width: 315px;
+    flex: 0 0 100%;
+}
+
+@media (min-width: 768px) {
+     .card {
+        flex: 1 1 calc(50% - 10px);
+    }
+}
+
+@media (min-width: 1280px) {
+   
 }

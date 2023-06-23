@@ -1,7 +1,18 @@
 .section-header {
-    padding: 60px 30px 50px;
+    display: flex;
+    flex-direction: column;
+    padding: 60px 0px 50px;
 }
 
 .section-header h2 {
     padding-bottom: 20px;
+}
+
+@media (min-width: 1280px) {
+    .section-header{
+        align-items: flex-start;
+    }
+    .subtitle {
+       text-align: left;
+    }
 }
