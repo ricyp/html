@@ -1,0 +1,36 @@
+
+
+.subtitle-left {
+    text-align: center;
+}
+
+.large-screens {
+    display: none;
+}
+
+@media (min-width: 780px) {
+    .card__image img {
+        aspect-ratio: 213.33 / 173;
+        object-fit: cover;
+        overflow: hidden;
+    }
+}
+
+@media (min-width: 1280px) {
+    .small-screens {
+        display: none;
+    }
+
+    .large-screens {
+        display: block;
+    }
+
+    .section-header--narrow {
+        align-items: center;
+    }
+
+    .subtitle {
+        font-size: 21px;
+        padding-bottom: 0;
+    }
+}

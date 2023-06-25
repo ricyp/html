@@ -1,18 +1,28 @@
 .section-header {
-    display: flex;
-    flex-direction: column;
-    padding: 60px 0px 50px;
+  padding: 60px 0px 50px;
 }
 
+.section-header--narrow {
+    padding: 60px 0 30px
+}
 .section-header h2 {
     padding-bottom: 20px;
 }
 
 @media (min-width: 1280px) {
-    .section-header{
-        align-items: flex-start;
+
+    .section-header h2 {
+        text-align: left;
+    }
+    .section-header--narrow h2 {
+        text-align: center;
+    }
+    .section-header--narrow p {
+        text-align: center;
+        font-size: 16px;
+        margin-bottom: 30px;
     }
     .subtitle {
-       text-align: left;
+        text-align: left;
     }
 }
