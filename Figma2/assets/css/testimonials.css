@@ -1,0 +1,31 @@
+
+
+.card__text--center>p{
+    padding-bottom: 12px;
+}
+
+
+.rating {
+    margin-left: auto;
+    margin-right: auto;
+    background-image: url(../img/star-icon.svg) ;
+    background-repeat: repeat;
+    height: 26px;
+    margin-bottom: 16px;
+}
+
+.rating-5 {
+    width : calc(5*27px);
+}
+
+@media (min-width: 780px) {
+    
+    .testimonial-container {
+        display: flex;
+    }
+}
+
+@media (min-width: 1280px) {
+
+
+}
