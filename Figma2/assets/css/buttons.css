@@ -22,8 +22,9 @@
     border-radius:20px;
     border: 1px solid var(--color-green);
     padding: 17px 49px;
-    width: 221px;
+    max-width: 221px;
     gap: 8px;
+    width: 100%;
 
 }
 
@@ -34,6 +35,8 @@
 .is-getstarted {
     color: var(--color-white);
     background-color: var(--color-green);
+    display: flex;
+    gap: 9px;
 }
 
 .is-howworks {

@@ -1,0 +1,41 @@
+.section-header--final {
+    padding-bottom: 40px;
+}
+
+.section-header--final h2 {
+    font-size: 28px;
+    font-family: Poppins;
+    font-weight: 600;
+    line-height: 130%;
+    letter-spacing: -0.28px;
+}
+
+.final {
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.final-image {
+    margin-top: 40px;
+}
+
+@media (min-width: 780px) {
+    .section-header--final h2 {
+        font-size: 50px;
+        font-weight: 700;
+        letter-spacing: -1px;
+    }
+
+    .section-header--final p {
+        font-size: 21px;
+        line-height: 150%;
+    }
+}
+@media (min-width: 1280px) {
+    .section-header--final h2 {
+        text-align: center;
+    }
+
+    .section-header--final p {
+        text-align: center;
+}

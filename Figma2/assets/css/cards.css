@@ -56,7 +56,7 @@
     margin-bottom: 0px;
 }
 
-@media (min-width: 768px) {
+@media (min-width: 780px) {
     .cards {
         flex-wrap: nowrap;
     }
@@ -64,6 +64,7 @@
     .cards:has(.card--wide) {
         flex-wrap: wrap;
         gap: 30px;
+        padding-bottom: 60px;
     }
 
     .card__text h3 {
@@ -74,7 +75,7 @@
         margin-bottom: 0;
     }
 
-    .card__designers {
+     .card__designers {
         width: 100%;
         max-width: 250px;
         padding: 40px 30px 40px 40px;

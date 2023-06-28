@@ -1,5 +1,5 @@
 h1 {
-    font-family: 'Poppins';
+    font-family: 'Poppins', sans-serif;
     font-style: normal;
     font-weight: 700;
     font-size: 38px;
@@ -10,7 +10,7 @@ h1 {
 }
 
 h2 {
-    font-family: 'Poppins';
+    font-family: 'Poppins', sans-serif;
     font-style: normal;
     font-weight: 700;
     font-size: 38px;
@@ -22,7 +22,7 @@ h2 {
 
 h3 {
 
-    font-family: 'Poppins';
+    font-family: 'Poppins', sans-serif;
     font-style: normal;
     font-weight: 600;
     font-size: 28px;
@@ -32,7 +32,7 @@ h3 {
 }
 
 h4 {
-    font-family: 'Poppins';
+    font-family: 'Poppins', sans-serif;
     font-style: normal;
     font-weight: 600;
     font-size: 21px;
@@ -42,7 +42,7 @@ h4 {
 }
 
 .subtitle {
-    font-family: 'Mulish';
+    font-family: 'Mulish', sans-serif;
     font-style: normal;
     font-weight: 400;
     font-size: 21px;
@@ -52,11 +52,27 @@ h4 {
 }
 
 h6 {
-    font-family: 'Mulish';
+    font-family: 'Mulish', sans-serif;
     font-style: normal;
     font-weight: 400;
     font-size: 14px;
     line-height: 160%;
     text-align: center;
     color: var(--color-customers);
+}
+
+.socials {
+    font-family: 'Poppins', sans-serif;
+    font-size: 14px;
+    font-weight: 700;
+    line-height: 20px;
+    color: var(--color-green);
+}
+
+.team {
+    text-align: center;
+    font-size: 16px;
+    font-family: 'Mulish', sans-serif;
+    line-height: 20px;
+    color: var(--color-customers)
 }

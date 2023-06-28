@@ -2,6 +2,10 @@
     padding: 60px 0px 50px;
 }
 
+.section-header h2 {
+    padding-bottom: 20px;
+}
+
 .section-header--narrow {
     padding: 60px 0 30px
 }
@@ -10,7 +14,11 @@
     padding: 100px 0px 60px;
 }
 
-.section-header h2 {
+.section-header--team {
+    padding: 60px 0 60px;
+}
+
+.section-header--team h2 {
     padding-bottom: 20px;
 }
 
