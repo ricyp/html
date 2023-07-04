@@ -1,0 +1,33 @@
+.wrapper {
+    padding: 0 24px;
+    background-color: var(--bg-color--white);
+    max-width: 1440px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.wrapper__footer {
+    background-color: var(--bg-color--black);
+    text-align: left;
+    padding: 40px 24px 24px;
+    max-width: 1440px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+@media (min-width: 768px) {
+   .wrapper__footer {
+    display: flex;
+    justify-content: space-between;
+   }
+}
+
+@media (min-width: 1024px) {
+    
+
+}
+
+@media (min-width: 1440px) {
+   
+
+}

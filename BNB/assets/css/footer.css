@@ -1,0 +1,147 @@
+footer {
+    max-width: 1440px;
+}
+
+.white {
+    color: var(--color-white);
+}
+
+.menu {
+    display: none;
+}
+
+.social {
+    width: 24px;
+}
+
+.footer__text h2 {
+    text-align: left;
+    font-size: 25px;
+    font-weight: 400;
+    margin-top: 40px;
+}
+
+.newbiz {
+    display: block;
+    margin-bottom: 40px;
+}
+
+footer h3 {
+    font-size: 16px;
+    font-weight: 500;
+    margin: 0;
+}
+
+.address {
+    margin-bottom: 24px;
+}
+
+.geninfo {
+    margin-bottom: 24px;
+}
+
+.socials {
+    display: flex;
+    flex-wrap: wrap;
+    margin-bottom: 40px;
+    background-color: transparent;
+}
+
+.socials h3 {
+    width: 100%;
+}
+
+.socials a {
+    display: block;
+    margin: 7px 16px 0 0;
+    transition: color .2s;
+}
+
+.socials svg {
+    fill: var(--color-footer-socials);
+}
+
+.footer__copy {
+    display: flex;
+    flex-wrap: wrap;
+
+}
+
+.footer__copy li {
+    margin: 0 2em 0 0;
+    font-weight: 400;
+    line-height: 25px;
+    font-size: 12px;
+}
+
+@media (min-width: 768px) {
+    .menu {
+        display: inline-block;
+    }
+
+    .links {
+        display: flex;
+        flex-wrap: wrap;
+        width: 66%;
+    }
+
+    .menu li {
+        font-size: 18px;
+        font-weight: 500;
+        line-height: 28px;
+        margin-bottom: 16px;
+    }
+
+    .menu a {
+        text-decoration: none;
+    }
+
+    .footer__text {
+        display: flex;
+        flex-wrap: wrap;
+        width: 100%;
+    }
+
+    .footer__text h2 {
+        width: 100%;
+        font-size: 21px;
+        line-height: 28px;
+    }
+
+    .newbiz {
+        width: 100%;
+        font-size: 18px;
+        line-height: 28px;
+    }
+
+    .address {
+        flex: 0 1 50%;
+        font-size: 18px;
+    }
+
+    .address h3 {
+        font-size: 16px;
+        line-height: 28px;
+    }
+
+    .footer__cols2 {
+        flex-direction: column;
+    }
+
+    .geninfo {
+        font-size: 18px;
+    }
+
+    .geninfo h3 {
+        font-size: 16px;
+        line-height: 28px;
+    }
+
+    .socials h3 {
+        font-size: 16px;
+        line-height: 28px;
+    }
+
+
+
+}

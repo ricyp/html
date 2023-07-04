@@ -1,0 +1,45 @@
+* {
+    box-sizing: border-box;
+}
+
+body,
+h1,
+h2,
+h3, 
+h4,
+h5,
+h6,
+p,
+ol, 
+ul, 
+fieldset {
+    margin: 0;
+    padding: 0;
+    margin-block: 0;
+    margin-inline: 0;
+    padding-inline: 0;
+    padding-block: 0;
+    border: 0;
+
+}
+
+ol, ul {
+    list-style: none;
+}
+
+img {
+    display: block;
+    max-width: 100%;
+    height: auto;
+}
+
+strong {
+    font-weight: 700;
+  }
+  
+figure {
+    display: block;
+    margin: 0;
+    margin-block: 0;
+    margin-inline: 0;
+}

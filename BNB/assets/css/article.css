@@ -1,0 +1,150 @@
+.article {
+    margin-top: 30px;
+}
+
+.bnb {
+    border-top: 8px solid var(--color-border-top);
+    padding-bottom: 48px;
+    padding-top: 40px;
+}
+
+.post__tags {
+    position: relative;
+    display: block;
+    width: 100%;
+    font-size: 14px;
+    font-weight: 600;
+    line-height: 20px;
+    text-transform: uppercase;
+    padding-left: 24px;
+    margin-bottom: 24px;
+}
+
+.post__tags:before {
+    background: currentColor;
+    content: "";
+    height: 2px;
+    left: 0;
+    margin-top: -2px;
+    position: absolute;
+    top: 50%;
+    width: 16px;
+}
+
+.post__date {
+    display: block;
+    font-size: 14px;
+    font-weight: 500;
+    line-height: 21px;
+    margin-bottom: 8px;
+}
+
+h2 a {
+    display: block;
+    text-decoration: none;
+    font-weight: 500;
+    line-height: 36px;
+    word-break: break-word;
+    font-size: 25px;
+    overflow: hidden;
+    text-align: left;
+}
+
+.post__image {
+    display: block;
+    margin-bottom: 24px;
+    max-width: 100%;
+}
+
+.post__text p {
+    margin-bottom: 24px;
+}
+
+.post__text p:last-child {
+    margin-bottom: 88px;
+}
+
+.arrow_left {
+    color: var(--color-black);
+    font-size: 21px;
+    line-height: 31px;
+    padding-left: 41px;
+    position: relative;
+}
+
+.arrow_left .arrow {
+    height: 10px;
+    left: 0;
+    margin-top: -5px;
+    top: 50%;
+    transform: rotate(180deg) translateX(0);
+    width: 25px;
+    position: absolute;
+}
+
+.footer__nav {
+    padding-left: 8.3333333333%;
+    padding-right: 8.3333333333%;
+    margin-bottom: 64px;
+}
+
+@media (min-width: 768px) {
+    .article {
+        display: flex;
+        justify-content: space-between;
+        margin-bottom: 104px;
+    }
+
+    .bnb {
+        flex: 0 0 33.333333333%;
+        max-width: 33.333333333%;
+        width: 33.333333333%;
+    }
+
+    .post__text {
+        flex: 0 0 58.333333333%;
+        max-width: 58.333333333%;
+        width: 58.333333333%;
+    }
+
+    .post__title a {
+        font-weight: 500;
+        line-height: 38px;
+        font-size: 28px;
+    }
+
+    .post__text p:last-child {
+        margin-bottom: 0px;
+    }
+
+    .footer__nav {
+        margin-bottom: 80px;
+    }
+}
+
+@media (min-width: 1024px) {
+
+
+    .post__text {
+        padding-right: 96px;
+    }
+}
+
+@media (min-width: 1440px) {
+    .post__text {
+        padding-right: 121px;
+    }
+
+    .post__title a {
+        font-weight: 500;
+        line-height: 40px;
+        font-size: 30px;
+    }
+
+    .post__date {
+        font-size: 16px;
+        line-height: 24px;
+    }
+
+
+}

@@ -1,0 +1,39 @@
+html,
+body {
+  font-family: Roboto, sans-serif;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 1.5;
+  margin: 0;
+  color: var(--color-text-default)
+}
+
+a {
+  color: inherit;
+}
+
+a.post__tags {
+  text-decoration: none;
+  color: var(--color-text-green);
+}
+
+a.arrow_left {
+  color: var(--color-black);
+  text-decoration: none;
+}
+
+a.related {
+  text-decoration: none;
+}
+
+@media (min-width: 768px) {
+  body {
+    line-height: 28px;
+  }
+}
+
+@media (min-width: 1440px) {
+    body {
+      font-size: 18px;
+    }
+}
